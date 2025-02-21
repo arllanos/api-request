@@ -19,11 +19,13 @@ npm install -D nodemon
 ```
 
 ## edit package.json and add a “dev” script as in:
+```json
 "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1",
   "start": "node src/app.js",
-   "dev": "nodemon src/app.js"
+  "dev": "nodemon src/app.js"
 },
+```
 
 ## install axios as a prod dependency
 url: https://www.npmjs.com/package/axios
